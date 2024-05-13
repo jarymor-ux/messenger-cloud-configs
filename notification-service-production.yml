@@ -4,12 +4,12 @@ spring:
       mail:
         smtp:
           starttls:
-            enable: 'true'
-          auth: 'true'
+            enable: true
+          auth: true
     host: smtp.gmail.com
     username: jarymorfifa@gmail.com
     password: cqrz mszt utzw srzd
-    port: '587'
+    port: 587
   kafka:
     consumer:
       group-id: app.1
