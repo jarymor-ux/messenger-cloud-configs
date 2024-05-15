@@ -17,7 +17,7 @@ spring:
   application:
     name: notification-service
 server:
-  port: 8082
+  port: 0
 eureka:
   client:
     service-url:
