@@ -2,9 +2,9 @@ spring:
   application:
     name: user-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/messenger
-    username: postgres
-    password: postgres
+    url: ${POSTGRES_MESSENGER_URL}
+    username: ${POSTGRES_MESSENGER_UNAME}
+    password: ${POSTGRES_MESSENGER_PASS}
   jpa:
     show-sql: true
   kafka:
