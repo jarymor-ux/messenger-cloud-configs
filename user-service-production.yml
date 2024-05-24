@@ -9,6 +9,9 @@ spring:
     show-sql: true
   kafka:
     bootstrap-servers: localhost:9092
+  spring:
+    liquibas:
+      enabled: true
 server:
   port: 8904
 
