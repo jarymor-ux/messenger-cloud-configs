@@ -2,7 +2,7 @@ spring:
   application:
     name: user-service
   datasource:
-    url: ${POSTGRES_MESSENGER_URL}
+    url: jdbc:postgresql://${DEFAULT_HOST}:${DEFAULT_POSTGRES_PORT}/${MESSANGER_DB_NAME}
     username: ${POSTGRES_MESSENGER_UNAME}
     password: ${POSTGRES_MESSENGER_PASS}
   jpa:
