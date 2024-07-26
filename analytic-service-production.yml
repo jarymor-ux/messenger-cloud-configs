@@ -6,7 +6,7 @@ spring:
   application:
     name: analytic-service
 server:
-  port: 0
+  port: 8903
 eureka:
   client:
     service-url:
