@@ -5,6 +5,10 @@ spring:
     bootstrap-servers: localhost:9092
   application:
     name: analytic-service
+  datasource:
+    name: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/messenger
 server:
   port: 8903
 eureka:
@@ -15,4 +19,3 @@ eureka:
 logging:
   pattern:
     console: "%C{1.} [%-5level] %d{HH:mm:ss} - %msg%n"
-
