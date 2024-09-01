@@ -9,6 +9,7 @@ spring:
     name: postgres
     password: postgres
     url: jdbc:postgresql://localhost:5432/messenger
+    driver-class-name: org.postgresql.Driver
 server:
   port: 8903
 eureka:
