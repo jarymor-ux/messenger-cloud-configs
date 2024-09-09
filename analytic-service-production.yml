@@ -9,7 +9,7 @@ spring:
   application:
     name: analytic-service
   datasource:
-    name: postgres
+    username: postgres
     password: postgres
     url: jdbc:postgresql://localhost:5432/messenger
 server:
